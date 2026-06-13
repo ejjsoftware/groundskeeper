@@ -7,6 +7,8 @@ relies on — network, cloud, backup, endpoint management, and more — into a
 single dashboard with alerts, AI-assisted summaries, and an at-a-glance
 traffic-light view for senior leadership.
 
+🔗 **[groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)**
+
 ## What it monitors
 
 - **Network** — Cisco Meraki devices and MT environmental sensors
@@ -45,6 +47,8 @@ AI features are entirely optional and can be switched off completely.
 
 ## Getting started
 
+- **Website** — visit [groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)
+  for an overview of the product
 - **Releases** — download the latest installer from the
   [Releases](../../releases) page
 - **Documentation** — see the [Wiki](../../wiki) for setup guides, connector
