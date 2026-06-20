@@ -1,72 +1,72 @@
 # Groundskeeper
 
-**Self-hosted IT operations intelligence for schools and Multi-Academy Trusts.**
+**Self-hosted IT operations intelligence for UK schools and Multi-Academy Trusts.**
 
-Groundskeeper pulls together data from the systems your IT team already
-relies on — network, cloud, backup, endpoint management, and more — into a
-single dashboard with alerts, AI-assisted summaries, and an at-a-glance
-traffic-light view for senior leadership.
+Groundskeeper runs on your own Windows Server, pulls data from 26 connectors covering the tools schools already use, and surfaces what needs attention — without anything leaving your network.
 
-🔗 **[groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)**
+🔗 **[ejjsoftware.com/groundskeeper](https://ejjsoftware.com/groundskeeper)**
 
-## What it monitors
+---
 
-- **Network** — Cisco Meraki devices and MT environmental sensors
-- **Microsoft 365** — service health via Microsoft Graph
-- **Backups** — Veeam job status
-- **Endpoint management** — Action1 (multi-org, EU/US/AU regions)
-- **Active Directory & Windows Server** — health, disk space, Windows 11 readiness
-- **Firewalls & UTM** — WatchGuard Firebox and Endpoint
-- **Hardware** — Dell iDRAC
-- **MIS status pages** — e.g. Bromcom
-- **Domain security** — SPF, DMARC, DKIM, TLS, HTTPS, security headers
-- and more, with new connectors added regularly
+## What it does
+
+- **Single event feed** — infrastructure health, security events, and school system status in one place. Issues only, no noise.
+- **Domain Security** — SPF, DMARC, DKIM, MX, TLS, HTTPS headers, change detection. Replaces NCSC Mail Check and Web Check (retired 31 March 2026).
+- **Cyber Essentials dashboard** — RAG status across all five CE controls, populated from live connector data.
+- **GKAgent** — lightweight PowerShell agent deployed via GPO or Action1 for Windows client visibility: BitLocker, Defender, Windows Update compliance, local admin audit, SMART disk health, and more.
+- **SLT view** — read-only traffic-light dashboard for senior leadership. No jargon.
+- **AI assistant** — morning briefings, alert explanations, and plain-English summaries. Runs locally via Ollama (no data leaves your network) or via a cloud provider of your choice.
+
+## 26 connectors
+
+**Cloud & SaaS:** Meraki, Action1, M365 Service Health, M365 Licences, Veeam, MIS Status (Bromcom/Arbor/SIMS/SEEMiS), School Services (16 UK services)
+
+**Security:** Domain Security, WatchGuard Firebox, WatchGuard Endpoint, SSL Cert Monitor
+
+**Infrastructure:** Windows Server, Windows Clients (GKAgent), Hyper-V, Active Directory, AD Account Health, Windows Event Log, DNS/DHCP, Internet Health, Endpoint Reports, Devices Left On Overnight, Exam Marking Software
+
+**Hardware:** HP/Aruba Switches (SNMP), UPS (SNMP), Dell iDRAC, Printers/MFDs (SNMP)
+
+---
 
 ## Why self-hosted
 
-Groundskeeper runs entirely on your own network. Your data never leaves the
-school — no cloud subscription, no third party seeing your infrastructure
-details. This matters for GDPR compliance and for IT teams who'd rather not
-add another vendor with access to their systems.
+- **Your data stays on your network.** No cloud subscription, no third party seeing your infrastructure details.
+- **Read-only by design** — Groundskeeper observes and reports. It never modifies anything on connected systems.
+- **GDPR-friendly by default** — nothing leaves school unless you choose a cloud AI provider.
 
-Groundskeeper is also **read-only** by design: it observes and reports, but
-never makes changes to any connected system.
-
-## Optional AI features
-
-AI-assisted features (daily summaries, natural-language queries, drafting
-communications) are available and can run either:
-
-- **Locally**, via [Ollama](https://ollama.com/) — fully private, no data
-  leaves your network
-- Or via a **cloud provider** of your choice (Azure OpenAI, OpenAI,
-  Anthropic Claude, Google Gemini) for schools that want a more capable
-  assistant and are comfortable with the relevant data processing terms
-
-AI features are entirely optional and can be switched off completely.
+---
 
 ## Getting started
 
-- **Website** — visit [groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)
-  for an overview of the product
-- **Releases** — download the latest installer from the
-  [Releases](../../releases) page
-- **Documentation** — see the [Wiki](../../wiki) for setup guides, connector
-  configuration, and FAQs
-- **Discussions** — questions, feature requests and community support happen
-  in [Discussions](../../discussions)
+- **Download** the Windows installer from the [Releases](../../releases) page — bundles everything, no Python required
+- **Documentation** — [Wiki](../../wiki) for setup guides, connector configuration, and FAQs
+- **Community key** — request a free Community key through the dashboard on first run
+- **Website** — [ejjsoftware.com/groundskeeper](https://ejjsoftware.com/groundskeeper)
+- **Discussions** — questions and community support in [Discussions](../../discussions)
+
+## Pricing
+
+| Tier | Price | Connectors |
+|---|---|---|
+| Community | Free | 5 (your choice) |
+| Standard | £149/yr | 10 |
+| Pro | £199/yr | Unlimited |
+| Trust | £499/yr | Unlimited + MAT hub |
+
+Community keys are free and renewed annually. Request one through the dashboard.
+
+---
 
 ## About
 
-Groundskeeper is built by **EJJ Software**, founded by a working school IT
-manager and a software developer, for the school IT community.
+Groundskeeper is built by **EJJ Software**, founded by two school IT professionals, for the school IT community.
 
-Visit [ejjsoftware.com](https://ejjsoftware.com) for more information.
+- Privacy notice: [ejjsoftware.com/privacy](https://ejjsoftware.com/privacy)
+- Website: [ejjsoftware.com](https://ejjsoftware.com)
 
 ## Licence
 
 © EJJ Software. All rights reserved.
 
-This repository is provided for transparency, release distribution, and
-community support. No licence is granted for reuse, modification, or
-redistribution of the source code.
+This repository is provided for transparency, release distribution, and community support. No licence is granted for reuse, modification, or redistribution of the source code.
