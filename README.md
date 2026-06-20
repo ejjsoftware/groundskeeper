@@ -4,7 +4,7 @@
 
 Groundskeeper runs on your own Windows Server, pulls data from 26 connectors covering the tools schools already use, and surfaces what needs attention — without anything leaving your network.
 
-🔗 **[ejjsoftware.com/groundskeeper](https://ejjsoftware.com/groundskeeper)**
+🔗 **[groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)**
 
 ---
 
@@ -42,7 +42,7 @@ Groundskeeper runs on your own Windows Server, pulls data from 26 connectors cov
 - **Download** the Windows installer from the [Releases](../../releases) page — bundles everything, no Python required
 - **Documentation** — [Wiki](../../wiki) for setup guides, connector configuration, and FAQs
 - **Community key** — request a free Community key through the dashboard on first run
-- **Website** — [ejjsoftware.com/groundskeeper](https://ejjsoftware.com/groundskeeper)
+- **Website** — [groundskeeper.ejjsoftware.com](https://groundskeeper.ejjsoftware.com)
 - **Discussions** — questions and community support in [Discussions](../../discussions)
 
 ## Pricing
@@ -62,7 +62,7 @@ Community keys are free and renewed annually. Request one through the dashboard.
 
 Groundskeeper is built by **EJJ Software**, founded by two school IT professionals, for the school IT community.
 
-- Privacy notice: [ejjsoftware.com/privacy](https://ejjsoftware.com/privacy)
+- Privacy notice: [groundskeeper.ejjsoftware.com/privacy](https://groundskeeper.ejjsoftware.com/privacy)
 - Website: [ejjsoftware.com](https://ejjsoftware.com)
 
 ## Licence
