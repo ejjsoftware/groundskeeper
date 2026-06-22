@@ -47,12 +47,11 @@ Groundskeeper runs on your own Windows Server, pulls data from 26 connectors cov
 
 ## Pricing
 
-| Tier | Price | Connectors |
+| Edition | Price | Connectors |
 |---|---|---|
 | Community | Free | 5 (your choice) |
-| Standard | £149/yr | 10 |
-| Pro | £199/yr | Unlimited |
-| Trust | £499/yr | Unlimited + MAT hub |
+| Pro | £249/yr per school | Unlimited |
+| Central | £499/yr per group | Unlimited + group hub-and-spoke dashboard |
 
 Community keys are free and renewed annually. Request one through the dashboard.
 
